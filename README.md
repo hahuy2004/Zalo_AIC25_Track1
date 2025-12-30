@@ -31,7 +31,7 @@ Zalo_AIC25_Track1/
 │   ├── data_preprocessing.ipynb    # Notebook tiền xử lý: Trích xuất frame, chuẩn hóa label
 │   ├── train.ipynb                 # Notebook huấn luyện mô hình YOLO
 │   └── inference.ipynb             # Notebook chạy suy luận, tracking và tạo file submission
-├── submit_private_test/            # Chứa các file kết quả submission.json
+├── submit_private_test/            # Chứa các file kết quả submission.json cho tập private_test
 ├── Report.pdf                      # Báo cáo chi tiết
 ├── requirements.txt                # Danh sách thư viện cần thiết
 └── README.md                       # <- File này
@@ -125,7 +125,7 @@ Quy trình suy luận bao gồm Detection (YOLO), Verification (DINOv3 + Color F
 
 ## VIII. Kết quả (Results)
 
-- Hiệu suất mô hình được đánh giá trên tập dữ liệu public_test và private_test của Zalo AI Challenge bằng chỉ số **ST-IoU**:
+- Hiệu suất mô hình được đánh giá trên tập dữ liệu public_test và private_test bằng chỉ số **ST-IoU**:
 
 | Model Configuration           | Public Score | Private Score |
 | ----------------------------- | ------------ | ------------- |
