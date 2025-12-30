@@ -1,0 +1,13 @@
+numpy
+torch
+torchvision
+opencv-python
+ultralytics
+transformers
+rembg
+onnxruntime
+pillow
+matplotlib
+tqdm
+scikit-learn
+pyyaml
