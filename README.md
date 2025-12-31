@@ -96,7 +96,7 @@ Dữ liệu sau khi tiền xử lý có thể tải ở đây: [Train/Valid Data
 
 ## VI. Huấn luyện (Training)
 
-Nhóm sử dụng mô hình **YOLO11** (phiên bản `yolo11s.pt`) làm backbone chính.
+Nhóm sử dụng mô hình **YOLOv11** (phiên bản `yolo11s.pt`) làm backbone chính.
 
 - **File thực hiện:** `source/train.ipynb`
 - **Cách chạy:** Mở notebook, trỏ đường dẫn tới file `dataset.yaml` được tạo ra ở bước Preprocessing và bắt đầu huấn luyện.
