@@ -109,7 +109,7 @@ Nhóm sử dụng mô hình **YOLOv11** (phiên bản `yolo11s.pt`) làm backbon
 
 ## VII. Suy luận & Đánh giá (Inference & Evaluation)
 
-Quy trình suy luận bao gồm Detection (YOLOv11), Verification (DINOv3 + Color Filter) và Temporal Tracking .
+Quy trình suy luận bao gồm Detection (YOLOv11), Verification (DINOv3 + Color Filter) và Temporal Tracking.
 
 **1. Chuẩn bị Checkpoint:**
 Đảm bảo đã có file `best.pt`. Nếu không huấn luyện lại thì có thể sử dụng checkpoint đi kèm trong repo ở thư mục `ckpts/yolo11s/best.pt` (ưu tiên) hoặc `ckpts/yolo11n/best.pt`.
