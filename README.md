@@ -86,7 +86,7 @@ dataset_root/
 
 ## V. Tiền xử lý (Preprocessing)
 
-Giai đoạn này trích xuất khung hình từ video, chuyển đổi bounding box sang định dạng YOLO và chia tập train/val .
+Giai đoạn này trích xuất khung hình từ video, chuyển đổi bounding box sang định dạng YOLO và chia tập dữ liệu train/val cho quá trình huấn luyện.
 
 - **File thực hiện:** `source/data_preprocessing.ipynb`
 - **Cách chạy:** Mở notebook và chạy tuần tự các cell.
