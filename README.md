@@ -18,7 +18,7 @@ Thông tin cuộc thi xem tại: [Zalo AI Challenge - AeroEyes Portal](https://c
 
 ## II. Cấu trúc Repository
 
-Dựa trên cấu trúc thư mục hiện tại của dự án:
+Cấu trúc thư mục hiện tại của dự án như sau:
 
 ```
 Zalo_AIC25_Track1/
