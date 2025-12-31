@@ -39,7 +39,7 @@ Zalo_AIC25_Track1/
 
 ## III. Cài đặt môi trường (Environment Setup)
 
-Dự án yêu cầu **Python 3.12** và hỗ trợ GPU (CUDA) để huấn luyện/suy luận hiệu quả. Hoặc có thể sử dụng Google Colab với GPU L4.
+Dự án yêu cầu **Python 3.12** và hỗ trợ GPU (CUDA) để huấn luyện/suy luận hiệu quả. Hoặc có thể sử dụng Google Colab với GPU L4 để thực thi.
 
 **1. Tạo và kích hoạt môi trường conda:**
 
@@ -86,7 +86,7 @@ dataset_root/
 
 ## V. Tiền xử lý (Preprocessing)
 
-Giai đoạn này trích xuất khung hình từ video, chuyển đổi bounding box sang định dạng YOLO và chia tập dữ liệu train/val cho quá trình huấn luyện.
+Giai đoạn này trích xuất khung hình từ video, chuyển đổi bounding box của dữ liệu gốc sang định dạng YOLO và chia tập dữ liệu train/val cho quá trình huấn luyện.
 
 - **File thực hiện:** `source/data_preprocessing.ipynb`
 - **Cách chạy:** Mở notebook và chạy tuần tự các cell.
@@ -109,7 +109,7 @@ Nhóm sử dụng mô hình **YOLOv11** (phiên bản `yolo11s.pt`) làm backbon
 
 ## VII. Suy luận & Đánh giá (Inference & Evaluation)
 
-Quy trình suy luận bao gồm Detection (YOLO), Verification (DINOv3 + Color Filter) và Temporal Tracking .
+Quy trình suy luận bao gồm Detection (YOLOv11), Verification (DINOv3 + Color Filter) và Temporal Tracking .
 
 **1. Chuẩn bị Checkpoint:**
 Đảm bảo đã có file `best.pt`. Nếu không huấn luyện lại thì có thể sử dụng checkpoint đi kèm trong repo ở thư mục `ckpts/yolo11s/best.pt` (ưu tiên) hoặc `ckpts/yolo11n/best.pt`.
