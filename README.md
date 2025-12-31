@@ -90,7 +90,7 @@ Giai đoạn này trích xuất khung hình từ video, chuyển đổi bounding
 
 - **File thực hiện:** `source/data_preprocessing.ipynb`
 - **Cách chạy:** Mở notebook và chạy tuần tự các cell.
-- **Output:** Notebook sẽ tạo ra thư mục dữ liệu chuẩn YOLO (`yolo_dataset/`) chứa ảnh và nhãn `.txt` tương ứng .
+- **Output:** Notebook sẽ tạo ra thư mục dữ liệu chuẩn YOLO (`yolo_dataset_shuffle/`) chứa ảnh và nhãn `.txt` tương ứng .
 
 Dữ liệu sau khi tiền xử lý có thể tải ở đây: [Train/Valid Data](https://drive.google.com/file/d/1M6DSPi5En1DZXn-iJsDwMjISd3bagboY/view?usp=sharing)
 
