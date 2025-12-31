@@ -4,7 +4,7 @@ Dự án này là giải pháp cho bài toán **AeroEyes** thuộc **Zalo AI Cha
 
 Thông tin cuộc thi xem tại: [Zalo AI Challenge - AeroEyes Portal](https://challenge.zalo.ai/portal/aero-eyes)
 
-## I. Danh sách thành viên:
+## I. Danh sách thành viên
 
 **Team:** [HCMUS - FIT] T5H
 
@@ -84,7 +84,7 @@ dataset_root/
 └── ...
 ```
 
-## V. Tiền xử lý (Preprocessing)
+## V. Quá trình tiền xử lý (Preprocessing)
 
 Giai đoạn này trích xuất khung hình từ video, chuyển đổi bounding box của dữ liệu gốc sang định dạng YOLO và chia tập dữ liệu train/val cho quá trình huấn luyện.
 
@@ -94,7 +94,7 @@ Giai đoạn này trích xuất khung hình từ video, chuyển đổi bounding
 
 Dữ liệu sau khi tiền xử lý có thể tải ở đây: [Train/Valid Data](https://drive.google.com/file/d/1M6DSPi5En1DZXn-iJsDwMjISd3bagboY/view?usp=sharing)
 
-## VI. Huấn luyện (Training)
+## VI. Quá trình huấn luyện (Training)
 
 Nhóm sử dụng mô hình **YOLOv11** (phiên bản `yolo11s.pt`) làm backbone chính.
 
@@ -107,7 +107,7 @@ Nhóm sử dụng mô hình **YOLOv11** (phiên bản `yolo11s.pt`) làm backbon
     * Augmentation: MixUp, Rotation, Shear.
 - Sau khi train xong, weight tốt nhất sẽ được lưu tại `best.pt`.
 
-## VII. Suy luận & Đánh giá (Inference & Evaluation)
+## VII. Quá trình suy luận & Đánh giá (Inference & Evaluation)
 
 Quy trình suy luận bao gồm Detection (YOLOv11), Verification (DINOv3 + Color Filter) và Temporal Tracking.
 
