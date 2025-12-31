@@ -1,6 +1,6 @@
 # AeroEyes: Finding and Rescuing with AI-Powered Drones
 
-Dự án này là giải pháp cho bài toán **AeroEyes** thuộc **Zalo AI Challenge 2025 - Track 1**, tập trung vào việc định vị không gian - thời gian (Spatio-Temporal Localization) các đối tượng cần tìm kiếm cứu nạn từ video quay bằng dronedrone.
+Dự án này là giải pháp cho bài toán **AeroEyes** thuộc **Zalo AI Challenge 2025 - Track 1**, tập trung vào việc định vị không gian - thời gian (Spatio-Temporal Localization) các đối tượng cần tìm kiếm cứu nạn từ video quay bằng drone.
 
 Thông tin cuộc thi xem tại: [Zalo AI Challenge - AeroEyes Portal](https://challenge.zalo.ai/portal/aero-eyes)
 
@@ -30,7 +30,7 @@ Zalo_AIC25_Track1/
 ├── source/                         # Mã nguồn chính (Jupyter Notebooks)
 │   ├── data_preprocessing.ipynb    # Notebook tiền xử lý: Trích xuất frame, chuẩn hóa label
 │   ├── train.ipynb                 # Notebook huấn luyện mô hình YOLO
-│   └── inference.ipynb             # Notebook chạy suy luận, tracking và tạo file submission
+│   └── inference.ipynb             # Notebook chạy inference, tracking và tạo file submission
 ├── submit_private_test/            # Chứa các file kết quả submission.json cho tập private_test
 ├── Report.pdf                      # Báo cáo chi tiết
 ├── requirements.txt                # Danh sách thư viện cần thiết
