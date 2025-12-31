@@ -112,7 +112,7 @@ Nhóm sử dụng mô hình **YOLO11** (phiên bản `yolo11s.pt`) làm backbone
 Quy trình suy luận bao gồm Detection (YOLO), Verification (DINOv3 + Color Filter) và Temporal Tracking .
 
 **1. Chuẩn bị Checkpoint:**
-Đảm bảo đã có file `best.pt`. Nếu không huấn luyện lại, bạn có thể sử dụng checkpoint đi kèm trong repo ở thư mục `ckpts/yolo11s/best.pt` (ưu tiên) hoặc `ckpts/yolo11n/best.pt`.
+Đảm bảo đã có file `best.pt`. Nếu không huấn luyện lại thì có thể sử dụng checkpoint đi kèm trong repo ở thư mục `ckpts/yolo11s/best.pt` (ưu tiên) hoặc `ckpts/yolo11n/best.pt`.
 
 **2. Chạy Inference:**
 - **File thực hiện:** `source/inference.ipynb`
