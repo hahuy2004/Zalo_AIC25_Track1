@@ -43,7 +43,7 @@ Dự án yêu cầu **Python 3.12** và hỗ trợ GPU (CUDA) để huấn luy�
 
 **1. Tạo và kích hoạt môi trường conda:**
 
-Nếu sử dụng môi trường conda, chạy các lệnh sau trong terminal (Nếu sử dung Google Colab, bước này có thể bỏ qua):
+Nếu sử dụng môi trường conda, chạy các lệnh sau trong terminal (Nếu sử dụng Google Colab thì bước này có thể bỏ qua):
 
 ```bash
 conda create -n aeroeyes python=3.12
@@ -134,7 +134,7 @@ Quy trình suy luận bao gồm Detection (YOLOv11), Verification (DINOv3 + Colo
 | YOLO11n + Tracking            | 0.53050      | 0.21530       |
 | **YOLO11s + Tracking (Best)** | **0.55460**  | **0.30200**   |
 
-- Nhóm đạt được **hạng 53** trên **Public Leaderboard** với mô hình YOLO11s kết hợp Tracking.
+- Nhóm đạt được **hạng 53** trên **Public Leaderboard** với mô hình YOLOv11s kết hợp Tracking.
 
 ## IX. Tham khảo (References)
 
