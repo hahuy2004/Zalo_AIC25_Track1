@@ -39,7 +39,7 @@ Zalo_AIC25_Track1/
 
 ## III. Cài đặt môi trường (Environment Setup)
 
-Dự án yêu cầu **Python 3.12** và hỗ trợ GPU (CUDA) để huấn luyện/suy luận hiệu quả. Hoặc có thể sử dụng Google Colab với GPU L4 để thực thi.
+Dự án yêu cầu **Python 3.12** và hỗ trợ GPU (CUDA) để huấn luyện/suy luận hiệu quả. Hoặc có thể sử dụng Google Colab với GPU L4/A100 để thực thi.
 
 **1. Tạo và kích hoạt môi trường conda:**
 
